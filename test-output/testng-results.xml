@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-01T02:07:20 CDT" name="Suite" finished-at="2025-04-01T02:08:28 CDT" duration-ms="68494">
+    <groups>
+    </groups>
+    <test started-at="2025-04-01T02:07:20 CDT" name="Login" finished-at="2025-04-01T02:08:28 CDT" duration-ms="68494">
+      <class name="com.function.tests.AddToCart">
+        <test-method is-config="true" signature="startAppiumServer()[pri:0, instance:com.function.tests.AddToCart@1ebea008]" started-at="2025-04-01T02:07:00 CDT" name="startAppiumServer" finished-at="2025-04-01T02:07:20 CDT" duration-ms="19440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumServer -->
+        <test-method is-config="true" signature="startAppiumDriver(org.testng.ITestResult)[pri:0, instance:com.function.tests.AddToCart@1ebea008]" started-at="2025-04-01T02:07:20 CDT" name="startAppiumDriver" finished-at="2025-04-01T02:07:54 CDT" duration-ms="34602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=AddToCart.checkIfShoeTypePresent()[pri:0, instance:com.function.tests.AddToCart@1ebea008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startAppiumDriver -->
+        <test-method signature="checkIfShoeTypePresent()[pri:0, instance:com.function.tests.AddToCart@1ebea008]" started-at="2025-04-01T02:07:54 CDT" name="checkIfShoeTypePresent" finished-at="2025-04-01T02:08:19 CDT" duration-ms="25084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfShoeTypePresent -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.function.tests.AddToCart@1ebea008]" started-at="2025-04-01T02:08:19 CDT" name="getResult" finished-at="2025-04-01T02:08:26 CDT" duration-ms="6158" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkIfShoeTypePresent status=SUCCESS method=AddToCart.checkIfShoeTypePresent()[pri:0, instance:com.function.tests.AddToCart@1ebea008] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quitingDriver()[pri:0, instance:com.function.tests.AddToCart@1ebea008]" started-at="2025-04-01T02:08:26 CDT" name="quitingDriver" finished-at="2025-04-01T02:08:28 CDT" duration-ms="2495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitingDriver -->
+        <test-method is-config="true" signature="stopAppiumServer()[pri:0, instance:com.function.tests.AddToCart@1ebea008]" started-at="2025-04-01T02:08:28 CDT" name="stopAppiumServer" finished-at="2025-04-01T02:08:28 CDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- com.function.tests.AddToCart -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>
